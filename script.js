@@ -47,7 +47,7 @@ const DEFAULT_POSTERS = [
     },
     {
         "id": "4",
-        "title": "Lufy",
+        "title": "Luffy",
         "category": "Anime",
         "defaultSize": "A3",
         "customPriceA3": 100,
