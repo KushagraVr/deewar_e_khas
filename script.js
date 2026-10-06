@@ -8,7 +8,128 @@ const STORE_CONFIG = {
     contactEmail: "myselfjyotips@gmail.com"
 };
 
-const DEFAULT_POSTERS = [];
+const DEFAULT_POSTERS = [
+    {
+        "id": "1",
+        "title": "Attack on titan",
+        "category": "Anime",
+        "defaultSize": "A3",
+        "customPriceA3": 100,
+        "customPriceA4": 25,
+        "discountPercent": 50,
+        "priority": true,
+        "soldOut": false,
+        "image": "images/A3/Attack%20on%20titan.webp"
+    },
+    {
+        "id": "2",
+        "title": "Vinland saga",
+        "category": "Anime",
+        "defaultSize": "A3",
+        "customPriceA3": 100,
+        "customPriceA4": 25,
+        "discountPercent": 50,
+        "priority": true,
+        "soldOut": false,
+        "image": "images/A3/Vinland%20saga.webp"
+    },
+    {
+        "id": "3",
+        "title": "Demon slayer",
+        "category": "Anime",
+        "defaultSize": "A3",
+        "customPriceA3": 100,
+        "customPriceA4": 25,
+        "discountPercent": 50,
+        "priority": false,
+        "soldOut": false,
+        "image": "images/A3/Demon%20slayer.webp"
+    },
+    {
+        "id": "4",
+        "title": "Lufy",
+        "category": "Anime",
+        "defaultSize": "A3",
+        "customPriceA3": 100,
+        "customPriceA4": 25,
+        "discountPercent": 50,
+        "priority": true,
+        "soldOut": false,
+        "image": "images/A3/Lufy.webp"
+    },
+    {
+        "id": "5",
+        "title": "Atonement",
+        "category": "Films",
+        "defaultSize": "A3",
+        "customPriceA3": 150,
+        "customPriceA4": 38,
+        "discountPercent": 25,
+        "priority": false,
+        "soldOut": false,
+        "image": "images/A3/Atonement.webp"
+    },
+    {
+        "id": "6",
+        "title": "Messi and ronaldhinio",
+        "category": "Sports",
+        "defaultSize": "A3",
+        "customPriceA3": 100,
+        "customPriceA4": 25,
+        "discountPercent": 50,
+        "priority": false,
+        "soldOut": false,
+        "image": "images/A3/Messi%20&%20Ronaldhinio.webp"
+    },
+    {
+        "id": "7",
+        "title": "In the mood for love",
+        "category": "Films",
+        "defaultSize": "A3",
+        "customPriceA3": 150,
+        "customPriceA4": 38,
+        "discountPercent": 25,
+        "priority": true,
+        "soldOut": false,
+        "image": "images/A3/In%20the%20mood%20for%20love.webp"
+    },
+    {
+        "id": "8",
+        "title": "Fight Club",
+        "category": "Films",
+        "defaultSize": "A3",
+        "customPriceA3": 150,
+        "customPriceA4": 38,
+        "discountPercent": 25,
+        "priority": false,
+        "soldOut": false,
+        "image": "images/A3/Fight%20Club.webp"
+    },
+    {
+        "id": "9",
+        "title": "Interstellar",
+        "category": "Films",
+        "defaultSize": "A3",
+        "customPriceA3": 150,
+        "customPriceA4": 38,
+        "discountPercent": 25,
+        "priority": true,
+        "soldOut": false,
+        "image": "images/A3/Interstellar.webp"
+    },
+    {
+        "id": "10",
+        "title": "Seven",
+        "category": "Films",
+        "defaultSize": "A3",
+        "customPriceA3": 150,
+        "customPriceA4": 38,
+        "discountPercent": 25,
+        "priority": false,
+        "soldOut": false,
+        "image": "images/A3/Seven.webp"
+    }
+];
 // --- SAFE STORAGE & ICON HELPERS ---
 function safeLoadJSON(key, fallback) {
     try {
